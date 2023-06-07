@@ -1,0 +1,74 @@
+html{
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0.541);
+    font-family: monospace;
+    font-size: 1.1em;
+}
+main{
+    margin: 0 auto;
+}
+ /* .container{
+    border-radius: 2em;
+    margin: 2em auto;
+    background-color: #000000cd;
+} */
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 10px white;
+}
+.activity{
+    text-align:center;
+    margin: 2em auto;
+    width: 40vw;
+    height: 20vh;
+    background-color: #0000002a;
+    border-radius: 2em;
+    padding: 2em;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 10px white;
+}
+label{
+    font-size: 1.7em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+input{
+    border-radius: 1.2em;
+    font-size: 1.1em;
+    padding: 0 2em;
+    margin: 1em 0;
+    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.648);
+}
+button{
+    border-radius: 0.5em;
+    padding :0.5em 2em;
+    box-shadow: 3px 3px 5px rgb(26, 26, 26);
+    background-color: wheat;
+}
+button:hover{
+    box-shadow: 1px 1px 2px rgb(20, 19, 19);
+
+}
+
+.item2{
+    display: inline-block;
+    background-color: #0000005a;
+    font-size: 1.3em;
+    margin: 1em;
+    width: 23vw;
+    padding: 1em;
+    border-radius: 2em;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 10px white;
+}
+.item2 span{
+    padding: 0 1em;
+    background-color:unset;
+    cursor: pointer;
+}
+.item2 li{
+    display: inline;
+    vertical-align:top;
+}
